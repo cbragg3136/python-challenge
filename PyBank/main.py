@@ -2,7 +2,7 @@ import os
 import csv
 
 budget_data_csv = os.path.join('Resources', 'budget_data.csv')
-budget_data_text = os.path.join('Resources', 'results.txt')
+budget_data_text = os.path.join('analysis', 'results.txt')
 
 #function to keeping reading file
 def get_data(readerobj):
